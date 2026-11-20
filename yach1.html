@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yach.css">
+    <link rel="icon" href="Флавикон.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Белаонтзия</title>
+</head>
+<body>
+    <header>
+        <div class="links">
+            <img src="ЯхтаШ.png" alt="Яхта" loading="lazy">
+          <ul>
+               <li><a href="main.html">Главная</a></li>
+               <li><a href="#catalog">Яхты</a></li>
+            </ul>
+        </div>
+    </header>
+   <div class="hero-image">
+        <img src="ЯМ.png" alt="Фон">
+    </div>
+    <div class="why">
+        <h2>Тип судна: Многопалубная моторная яхта</h2>
+        <h2>Длина: 40 метров</h2>
+        <h2>Максимальное количество гостей: 12 человек</h2>
+        <h2>Особенности и удобства:</h2>
+        <div class="wli">
+            <ul>
+                <li>Дизайн и интерьер: Современный дизайн с элементами классики, просторные каюты с панорамными окнами, обеспечивающими великолепный вид на море.</li>
+                <li>Размещение: 6 комфортабельных кают с индивидуальными ванными комнатами, оборудованными всеми необходимыми удобствами.</li>
+                <li>Зоны отдыха: Открытая палуба с зоной для загара, джакузи, обеденной зоной и баром. Внутренняя зона отдыха с мягкой мебелью, плазменными телевизорами и стереосистемой.</li>
+                <li>Технические характеристики: Мощные двигатели обеспечивают плавное и быстрое передвижение, система стабилизации волн для комфортного плавания даже в неспокойную погоду.</li>
+                <li>Дополнительные услуги: Возможность организации банкетов, вечеринок и корпоративных мероприятий на борту, аренда водного оборудования (водные лыжи, доски для серфинга и др.).</li>
+            </ul>
+        </div>
+        <h2>Идеально подходит для:</h2>
+        <div class="wli">
+            <ul>
+                <li>Семейных путешествий и романтических круизов</li>
+                <li>Деловых встреч и корпоративов на воде</li>
+                <li>Отдыхающих, стремящихся к комфорту и эксклюзивности</li>
+            </ul>
+        </div>
+        <h2>Эта яхта станет вашим идеальным спутником в путешествии по морским просторам, предлагая незабываемые впечатления и высочайший уровень комфорта.</h2>
+        <h1>Стоимость: 5000 рублей в сутки</h1>
+        <div class="button-container">
+    <button class="book-btn">Забронировать</button>
+</div>
+    </div>
+    </div>
+    <footer>
+        <p>Забронируйте Белаонтзиа и почувствуйте, как свобода бьёт ключом — <br>
+        прямо из глубин океана.</p>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Заявка</h2>
+                <span class="close">x</span>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="fio" placeholder="ФИО">
+                <div class="error-msg" id="fioError"></div>
+                <select id="yacht">
+                    <option>Яхта</option>
+                    <option value="5000">Мария (5000 ₽/сутки)</option>
+                    <option value="7000">Солнечная (7000 ₽/сутки)</option>
+                    <option value="6000">Прекрасная (6000 ₽/сутки)</option>
+                </select>
+                <div class="error-msg" id="yachtError"></div>
+                <div class="date">
+                    <input type="date" id="start">
+                    <input type="date" id="end">
+                    <div class="error-msg" id="dateError"></div>
+                </div>
+                <div class="total">Итого: <span id="sum">0</span> ₽</div>
+                <div class="btns">
+                    <button id="send">Забронировать</button>
+                </div>
+                <div class="download-section">
+                    <a href="Памятка.docx" download class="download-link">Информация по брони</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="successModal" class="modal">
+        <div class="modal-content success-content">
+            <div class="modal-header success-header">
+                <span class="close-success">Х</span>
+            </div>
+            <div class="modal-body success-body">
+                <div class="success-message">
+                   Спасибо что выбрали нас!
+                </div>
+                <div class="success-image">
+                    <img src="Яхта.png" alt="Яхта">
+                </div>
+                <div class="success-message-bottom">
+                    <span id="countdownTimer">10</span> секунд до перехода на главную страницу</div>
+            </div>
+        </div>
+    </div>
+    <div id="activityModal" class="modal activity-modal">
+        <div class="modal-content activity-content">
+            <div class="activity-body">
+                <img id="activityImage" src="Окно_активности.png" alt="Проверка активности">
+            </div>
+        </div>
+    </div>
+    <div id="offlineModal" class="modal offline-modal">
+        <div class="offline-content">
+            <img id="offlineImage" src="Нет_интернета.png" alt="Нет интернета">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

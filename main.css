@@ -1,0 +1,522 @@
+body {
+    font-family: "Inder", sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #73E6EE;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 350px; 
+}
+
+.header-content {
+    position: relative;
+    width: 100%;
+    min-height: 550px;
+}
+
+.links {
+    position: fixed;
+    justify-self: flex-end;
+    z-index: 100;
+    top: 0;
+    right: 0;
+}
+
+.links ul {
+    list-style-type: none;
+    margin-right: 50px;
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.waves-layer {
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    left: 0;
+    right: 0;
+}
+
+.waves-layer img {
+    position: absolute;
+}
+
+.waves-layer img {
+    width: auto;
+    height: auto;
+}
+
+.img7 {
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.yatch {
+    z-index: 2;
+    left: 300px;
+    bottom: 400px;
+}
+
+.img6 {
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img5 {
+    z-index: 4;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img4 {
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img3 {
+    z-index: 6;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img2 {
+    z-index: 7;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img1 {
+    z-index: 8;
+    bottom:0;
+    left: 0;
+    right: 0;
+   min-width: 100%;
+}
+
+h1 {
+    font-size: 128px;
+    color: #ffffff;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);  
+    font-style: normal;
+    font-family: "Miama Nueva", sans-serif;
+    z-index: 9;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.about {
+    padding: 200px;
+    background-image: url('Пузырьки.png');
+    background-size: cover;  
+    position: relative;
+    clear: both;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.why {
+    margin-top: 0;
+    background: linear-gradient(#22397E, #ffffff);
+}
+
+.why h2 {
+    margin-top: 0;
+    font-size: 40px;
+    color: #ffffff;
+    padding: 50px 10px 0 100px;
+}
+
+.wli ul {
+    list-style-image: url('ЯхтаМ.png');
+    padding: 10px 50px 10px 80px;
+}
+
+.wli li {
+    padding: 20px;
+    font-size: 36px;
+    color: #ffffff;
+    padding: 10px 50px 10px 20px; 
+    line-height: 1.4;
+}
+
+.search-container {
+    position: relative;
+    width: 1000px;
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 15px 60px 15px 20px;  
+    font-size: 32px;
+    font-family: "Inder", sans-serif;
+    background: #ffffff;
+    border: 3px solid #26469A;  
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.search-button img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.catalog {
+    margin-bottom: 50px;
+}
+
+.catalog h2 {
+    font-size: 48px;
+    color: #21326C;
+    padding: 50px 10px 0 100px;
+}
+
+.yatch1 {
+    background-image: url('ФонМария.png');
+    background-size: cover;  
+    position: relative;
+    clear: both;
+}
+
+.yatch1 img {
+    padding: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 70%;
+}
+
+.yatch11 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yatch11 h3{
+    font-size: 48px;
+    color: #000;
+    margin-left: 200px;
+}
+
+.yatch11 button {
+    margin-right: 200px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #026EB7;
+    font-size: 48px;
+    border: #026EB7;
+
+}
+
+.yatch11 button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.yatch2 {
+    background-image: url('ФонСолнечная.png');
+    background-size: cover;  
+    position: relative;
+    clear: both;
+}
+
+.yatch2 img {
+    padding: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 70%;
+}
+
+.yatch3 {
+    background-image: url('ФонПрекрасная.png');
+    background-size: cover;  
+    position: relative;
+    clear: both;
+}
+
+.yatch3 img {
+    padding: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 70%;
+}
+footer {
+    font-size: 36px;
+    color: #ffffff;
+    background-color: #20326D;
+    text-align: center;
+    padding: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(58, 130, 211, 0.7);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    width: 1200px;
+    max-width: 90%;
+    border-radius: 50px;
+    animation: fade 0.3s;
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-header {
+    color: #20326D;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+}
+
+.modal-header h2 { 
+    margin: 0; 
+    font-size: 64px; 
+}
+.close { 
+    font-size: 40px; 
+    cursor: pointer;
+}
+
+.modal-body { 
+    padding: 25px; 
+}
+
+.modal-body input, .modal-body select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 5px solid #203370;
+    border-radius: 50px;
+    font-size: 36px;
+    box-sizing: border-box;
+}
+
+.date {
+  justify-content: space-between; 
+}
+
+.total {
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+    font-weight: bold; 
+}
+
+.total span { 
+    color: #000000;
+    font-weight: bold; 
+    font-size: 40px; 
+}
+
+.btns { display: flex; 
+    gap: 15px; 
+    justify-content: center; 
+    margin: 15px 0; 
+}
+
+.btns button { 
+    padding: 10px 25px; 
+    font-size: 36px; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer; 
+}
+
+#send { 
+    background: #026EB7; 
+    color: white; 
+}
+
+.download-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 20px auto;
+}
+
+.download-link {
+    display: inline-block;
+    font-size: 40px;
+    color: #000000;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.error-msg {
+    font-size: 14px;
+    color: #0066cc;
+    background-color: #97c7f5;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    display: none;
+    font-weight: 500;
+}
+
+.error-msg.show {
+    display: block;
+    animation: slideDown 0.3s ease;
+}
+
+.success-content {
+    width: 700px;
+    max-width: 90%;
+    background: #73E6EE;
+}
+
+.success-header {
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+
+.close-success {
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.success-body {
+    text-align: center;
+    padding: 30px;
+}
+
+.success-message {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.success-image {
+    margin: 20px 0;
+}
+
+.success-image img {
+    width: 500px;
+    height: auto;
+    animation: bounce 0.5s ease;
+}
+
+.success-message-bottom {
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+#countdownTimer {
+    font-size: 40px;
+    display: inline-block;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.activity-modal{
+    background:rgba(58, 130, 211, 0.7)
+}
+.activity-content{
+    background:0;
+    width:auto;
+    max-width:90%
+}
+.activity-body{
+    text-align:center;
+    padding:0
+}
+
+.activity-body img{
+    max-width:100%;
+    max-height:80vh;
+    border-radius:20px;
+    animation:fadeScale .3s
+}
+
+.offline-modal{
+    background:rgba(58, 130, 211, 0.7)
+}
+.offline-content{
+    background:0;
+    width:auto;
+    max-width:90%
+}
+.offline-content img{
+    max-width:100%;
+    height:auto;
+}

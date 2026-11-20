@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="error.css">
+    <link rel="icon" href="Флавикон.png" type="image/x-icon">
+    <title>Ошибка</title>
+</head>
+<body>
+    <div class="header-content">
+        <div class="waves-layer">
+            <img class="wave-img img1" src="1.png" alt="Волна 1">
+            <img class="wave-img img2" src="2.png" alt="Волна 2">
+            <img class="wave-img img3" src="3.png" alt="Волна 3">
+            <img class="wave-img img4" src="4.png" alt="Волна 4">
+            <img class="wave-img img5" src="5.png" alt="Волна 5">
+            <img class="wave-img img6" src="6.png" alt="Волна 6">
+            <img class="yatch" src="Яхта.png" alt="Яхта" loading="lazy">
+            <img class="wave-img img7" src="7.png" alt="Волна 7">
+        </div>
+        <h1>404</h1>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3/lib/anime.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            anime({ targets: '.img1', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 0, loop: true });
+            anime({ targets: '.img2', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 200, loop: true });
+            anime({ targets: '.img3', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 400, loop: true });
+            anime({ targets: '.img4', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 600, loop: true });
+            anime({ targets: '.img5', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 800, loop: true });
+            anime({ targets: '.img6', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 1000, loop: true });
+            anime({ targets: '.yatch', translateY: [0, -10, 0, 10, 0], easing: 'easeInOutSine', duration: 2400, delay: 1200, loop: true });
+            anime({ targets: '.img7', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 1400, loop: true });
+        });
+    </script>
+</body>
+</html>

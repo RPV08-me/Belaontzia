@@ -1,0 +1,102 @@
+.header-content {
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    background-color: #73E6EE;
+    overflow: hidden;
+    padding-top: 350px;
+}
+
+.waves-layer {
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    left: 0;
+    right: 0;
+}
+
+.waves-layer img {
+    position: absolute;
+}
+
+.waves-layer img {
+    width: auto;
+    height: auto;
+}
+
+.img7 {
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.yatch {
+    z-index: 2;
+    left: 300px;
+    bottom: 400px;
+}
+
+.img6 {
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img5 {
+    z-index: 4;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img4 {
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img3 {
+    z-index: 6;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img2 {
+    z-index: 7;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+}
+
+.img1 {
+    z-index: 8;
+    bottom:0;
+    left: 0;
+    right: 0;
+   min-width: 100%;
+}
+
+h1 {
+    font-size: 200px;
+    color: #ffffff;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);  
+    font-style: normal;
+    font-family: "Miama Nueva", sans-serif;
+    z-index: 9;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+}

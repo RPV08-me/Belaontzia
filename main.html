@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="Флавикон.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Белаонтзия</title>
+</head>
+<body>
+    <header>
+        <div class="links">
+            <ul>
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="#catalog">Яхты</a></li>
+            </ul>
+        </div>
+        <div class="header-content">
+            <div class="waves-layer">
+                <img class="wave-img img1" src="1.png" alt="Волна 1">
+                <img class="wave-img img2" src="2.png" alt="Волна 2">
+                <img class="wave-img img3" src="3.png" alt="Волна 3">
+                <img class="wave-img img4" src="4.png" alt="Волна 4">
+                <img class="wave-img img5" src="5.png" alt="Волна 5">
+                <img class="wave-img img6" src="6.png" alt="Волна 6">
+                <img class="yatch" src="Яхта.png" alt="Яхта" loading="lazy">
+                <img class="wave-img img7" src="7.png" alt="Волна 7">
+            </div>
+            <h1>Белаонтзия</h1>
+        </div>
+    </header>
+    <div class="about">
+        <h2>Белаонтзиа — сервис по аренде яхт.<br> 
+Наша команда состоит из местных<br>
+ энтузиастов моря, которые знают<br>
+  каждый риф и каждую стоянку с<br>
+   лучшим видом. Мы решили, что аренда<br> 
+   яхты не должна быть пафосной или<br>
+   излишне сложной. Это должно быть<br>
+   путешествие с душой.</h2>
+    </div>
+    <div class="why">
+        <h2>Почему выбирают нас?</h2>
+        <div class="wli">
+            <ul>
+                <li class="l1">Уют, как дома. Белаонтзиа поддерживается в идеальном состоянии: чистая палуба, 
+                    удобные каюты, исправная техника и тёплое отношение к каждому гостю.</li>
+                <li class="l2">Свобода для новичков и опытных. Хотите штурвал в свои руки? Пожалуйста. 
+                    Нужен капитан, который проведёт вас к самым красивым бухтам? Без проблем.</li>
+                <li class="l3">Настроение, а не услуга. Мы не работаем по шаблону. Романтический ужин на рейде, 
+                    рыбалка на рассвете или пенная вечеринка — Белаонтзиа подстроится под вас.</li>
+            </ul>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Найдите всё что интересует|" class="search-input">
+            <button class="search-button">
+            <img src="Лупа.png" alt="Поиск"></button>
+        </div>
+    </div>
+    <div class="catalog" id="catalog">
+        <h2>Наши яхты</h2>
+        <div class="yatch1">
+            <img src="Мария.png">
+        </div>
+        <div class="yatch11">
+            <h3>Яхта Мария</h3>
+            <button><a href="yach1.html">Узнать</a></button>
+        </div>
+        <div class="yatch2">
+            <img src="Солнечная.png">
+        </div>
+        <div class="yatch11">
+            <h3>Яхта Солнечная</h3>
+            <button><a href="yach2.html">Узнать</a></button>
+        </div>
+        <div class="yatch3">
+            <img src="Прекрасная.png">
+        </div>
+        <div class="yatch11">
+            <h3>Яхта Прекрасная</h3>
+            <button><a href="yach3.html">Узнать</a></button>
+        </div>
+    </div>
+    <footer>
+        <p>Забронируйте Белаонтзиа и почувствуйте, как свобода бьёт ключом — <br>
+        прямо из глубин океана.</p>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Заявка</h2>
+                <span class="close">x</span>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="fio" placeholder="ФИО">
+                <div class="error-msg" id="fioError"></div>
+                <select id="yacht">
+                    <option>Яхта</option>
+                    <option value="5000">Мария (5000 ₽/сутки)</option>
+                    <option value="7000">Солнечная (7000 ₽/сутки)</option>
+                    <option value="6000">Прекрасная (6000 ₽/сутки)</option>
+                </select>
+                <div class="error-msg" id="yachtError"></div>
+                <div class="date">
+                    <input type="date" id="start">
+                    <input type="date" id="end">
+                    <div class="error-msg" id="dateError"></div>
+                </div>
+                <div class="total">Итого: <span id="sum">0</span> ₽</div>
+                <div class="btns">
+                    <button id="send">Забронировать</button>
+                </div>
+                <div class="download-section">
+                    <a href="Памятка.docx" download class="download-link">Информация по брони</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="successModal" class="modal">
+        <div class="modal-content success-content">
+            <div class="modal-header success-header">
+                <span class="close-success">Х</span>
+            </div>
+            <div class="modal-body success-body">
+                <div class="success-message">
+                   Спасибо что выбрали нас!
+                </div>
+                <div class="success-image">
+                    <img src="Яхта.png" alt="Яхта">
+                </div>
+                <div class="success-message-bottom">
+                    <span id="countdownTimer">10</span> секунд до перехода на главную страницу</div>
+            </div>
+        </div>
+    </div>
+    <div id="activityModal" class="modal activity-modal">
+        <div class="modal-content activity-content">
+            <div class="activity-body">
+                <img id="activityImage" src="Окно_активности.png" alt="Проверка активности">
+            </div>
+        </div>
+    </div>
+    <div id="offlineModal" class="modal offline-modal">
+        <div class="offline-content">
+            <img id="offlineImage" src="Нет_интернета.png" alt="Нет интернета">
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3/lib/anime.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            anime({ targets: '.img1', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 0, loop: true });
+            anime({ targets: '.img2', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 200, loop: true });
+            anime({ targets: '.img3', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 400, loop: true });
+            anime({ targets: '.img4', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 600, loop: true });
+            anime({ targets: '.img5', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 800, loop: true });
+            anime({ targets: '.img6', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 1000, loop: true });
+            anime({ targets: '.yatch', translateY: [0, -10, 0, 10, 0], easing: 'easeInOutSine', duration: 2400, delay: 1200, loop: true });
+            anime({ targets: '.img7', translateY: [0, -15, 0, 15, 0], easing: 'easeInOutSine', duration: 2400, delay: 1400, loop: true });
+        });
+    </script>
+</body>
+</html>
